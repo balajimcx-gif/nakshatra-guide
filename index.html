@@ -1,48 +1,40 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="language" content="English">
-<meta name="google" content="notranslate">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nakshatra Guide</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Image Screen</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #121212;
+            font-family: sans-serif;
+        }
+        .screen-content {
+            text-align: center;
+            max-width: 90%;
+            max-height: 90vh;
+        }
+        img {
+            max-width: 100%;
+            max-height: 80vh;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            object-fit: contain;
+        }
+    </style>
 </head>
 <body>
-<div class="container">
-<header>
-<div class="brand">Ancient Indian Wisdom<br>Blended with Modern Artificial Intelligence</div>
-<nav>
-<a href="#">Home</a>
-<a href="#">Learn</a>
-<a href="#">About Us</a>
-<a href="#">Feedback</a>
-</nav>
-</header>
 
-<section class="hero">
-<h1>NAKSHATRA GUIDE</h1>
-
-<p><h3>Select Your Nakshatra</h3></p>
-<div id="grid" class="grid"></div>
-
-<div class="forecast-panel">
-    <div class="panel">
-        <h2>Today's Forecast</h2>
-        <div id="forecast">
-            Select a Nakshatra above to view today's forecast.
-        </div>
+    <div class="screen-content">
+        <!-- Change "your-image-name.jpg" to match your exact file name -->
+        <img src="upgrade.png" alt="My Displayed Image">
     </div>
-</div>
 
-<div class="panel">
-<h2>Area Requiring Attention</h2>
-<div id="attention">Select a Nakshatra above to view today's attention area.</div>
-</div>
-</div>
-
-</div>
-<script src="script.js"></script>
 </body>
 </html>

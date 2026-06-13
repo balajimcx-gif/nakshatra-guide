@@ -1,32 +1,110 @@
 {
-  "date": "2026-06-13",
-  "forecasts": {
-    "Ashwini": "A fast-moving day. Good time to start pending work. Avoid impulsive spending and hasty decisions.",
-    "Bharani": "Responsibilities demand attention. Focus on completing existing tasks before taking up new commitments.",
-    "Krittika": "Your leadership qualities shine today. Be mindful of harsh words, especially in family matters.",
-    "Rohini": "Financial matters show stability. A favorable day for planning, organizing, and nurturing relationships.",
-    "Mrigashira": "Curiosity leads to useful discoveries. Travel, learning, and networking activities are favored.",
-    "Ardra": "Emotional fluctuations may arise. Stay calm and avoid reacting to temporary situations.",
-    "Punarvasu": "Positive energy returns after recent challenges. Good news or support may come unexpectedly.",
-    "Pushya": "One of the stronger days for growth and prosperity. Excellent for spiritual and professional pursuits.",
-    "Ashlesha": "Trust your instincts but avoid overanalyzing situations. Keep communication transparent.",
-    "Magha": "Recognition or appreciation is possible. Respect elders and traditional values for favorable outcomes.",
-    "Purva Phalguni": "Social interactions bring happiness. A good day for creativity, relaxation, and personal enjoyment.",
-    "Uttara Phalguni": "Focus on partnerships and long-term commitments. Practical decisions bring lasting benefits.",
-    "Hasta": "Productivity remains high. Attention to detail helps resolve lingering issues successfully.",
-    "Chitra": "Creative ideas gain momentum. Present your thoughts confidently but remain open to feedback.",
-    "Swati": "Flexibility is your strength today. Adaptability helps you overcome unexpected changes.",
-    "Vishakha": "Persistence leads to progress. Avoid distractions and stay focused on primary goals.",
-    "Anuradha": "Friendships and teamwork prove beneficial. Collaborative efforts bring positive results.",
-    "Jyeshtha": "Leadership opportunities arise. Maintain patience while dealing with authority figures.",
-    "Mula": "A day for reflection and restructuring. Let go of outdated habits that no longer serve you.",
-    "Purva Ashadha": "Confidence increases. Good opportunities may emerge through networking and communication.",
-    "Uttara Ashadha": "Discipline and determination support success. Focus on long-term objectives rather than quick gains.",
-    "Shravana": "Learning and guidance play important roles. Listen carefully to advice from trusted sources.",
-    "Dhanishta": "Financial opportunities may appear. Balance ambition with practicality for the best results.",
-    "Shatabhisha": "Health and well-being deserve attention. Rest and self-care improve overall productivity.",
-    "Purva Bhadrapada": "Deep thinking brings clarity. Avoid unnecessary arguments and focus on personal growth.",
-    "Uttara Bhadrapada": "Stability and patience create favorable outcomes. Family matters receive positive attention.",
-    "Revati": "A gentle and supportive day. Travel, planning, and helping others bring satisfaction and good fortune."
-  }
+"Anusham": {
+"forecast": "A pending matter may begin moving in a favorable direction today. Patience and steady effort can bring encouraging signs of progress.",
+"attention": "Avoid reacting emotionally to minor delays or misunderstandings."
+},
+"Ashwini": {
+"forecast": "Fresh energy supports new beginnings and practical initiatives. Confidence can help you make meaningful progress.",
+"attention": "Do not rush decisions without reviewing the details."
+},
+"Avittam": {
+"forecast": "Teamwork and cooperation are likely to produce better results than working alone. Shared goals receive support.",
+"attention": "Avoid overcommitting to multiple responsibilities."
+},
+"Ayilyam": {
+"forecast": "Intuition is strong today and may guide you toward practical solutions. Family matters can receive positive attention.",
+"attention": "Avoid dwelling excessively on past concerns."
+},
+"Bharani": {
+"forecast": "Responsibilities may increase, but so does your ability to manage them effectively. Focus brings rewards.",
+"attention": "Avoid unnecessary arguments over minor matters."
+},
+"Chithirai": {
+"forecast": "Creative thinking and problem-solving abilities are highlighted. An overlooked opportunity may become visible.",
+"attention": "Avoid impatience when dealing with others."
+},
+"Hastham": {
+"forecast": "Attention to detail helps you make steady progress. Practical efforts can yield encouraging results.",
+"attention": "Avoid taking on more tasks than necessary."
+},
+"Karthigai": {
+"forecast": "Determination and clarity help you move forward confidently. Existing plans may gain momentum.",
+"attention": "Avoid becoming overly critical of yourself or others."
+},
+"Kettai": {
+"forecast": "Strategic thinking works in your favor. Long-term plans may reveal useful next steps.",
+"attention": "Avoid sharing important information too quickly."
+},
+"Magham": {
+"forecast": "Leadership qualities emerge naturally today. Others may seek your guidance or support.",
+"attention": "Avoid stubbornness in collaborative situations."
+},
+"Mirugasirisham": {
+"forecast": "Curiosity and learning bring useful insights. Conversations may open new possibilities.",
+"attention": "Avoid scattering your energy across too many interests."
+},
+"Moolam": {
+"forecast": "A deeper understanding of a current situation may emerge. Simplification brings clarity.",
+"attention": "Avoid making assumptions without verification."
+},
+"Poosam": {
+"forecast": "Supportive influences encourage stability and growth. Helpful advice may arrive unexpectedly.",
+"attention": "Avoid neglecting your own priorities while helping others."
+},
+"Pooradam": {
+"forecast": "Confidence increases as progress becomes more visible. Efforts made earlier begin showing results.",
+"attention": "Avoid unnecessary competition."
+},
+"Pooram": {
+"forecast": "Social interactions and relationships receive favorable attention. Positive connections may strengthen.",
+"attention": "Avoid excessive spending on impulse purchases."
+},
+"Poorattadhi": {
+"forecast": "Thoughtful planning helps reduce uncertainty. Practical actions bring greater confidence.",
+"attention": "Avoid postponing important decisions."
+},
+"Punarpoosam": {
+"forecast": "Renewal and optimism support forward movement. Existing efforts may receive renewed momentum.",
+"attention": "Avoid revisiting old worries repeatedly."
+},
+"Revathi": {
+"forecast": "A calm and balanced approach brings favorable outcomes. Small improvements create lasting benefits.",
+"attention": "Avoid overthinking minor situations."
+},
+"Rohini": {
+"forecast": "Growth-oriented influences support development and expansion. Practical opportunities may emerge.",
+"attention": "Avoid becoming attached to a single outcome."
+},
+"Sadayam": {
+"forecast": "Innovation and fresh perspectives help solve challenges. New ideas deserve consideration.",
+"attention": "Avoid neglecting practical details."
+},
+"Swathi": {
+"forecast": "Flexibility becomes your greatest strength today. Adaptability can open unexpected doors.",
+"attention": "Avoid frequent changes of direction."
+},
+"Thiruvathirai": {
+"forecast": "Transformative influences encourage personal growth and new understanding. Insights may emerge unexpectedly.",
+"attention": "Avoid reacting impulsively to changing circumstances."
+},
+"Thiruvonam": {
+"forecast": "Steady effort and disciplined action bring tangible progress. Long-term goals receive support.",
+"attention": "Avoid becoming overly serious about minor setbacks."
+},
+"Uthiradam": {
+"forecast": "Commitment and persistence help you move closer to important objectives. Recognition may come through consistency.",
+"attention": "Avoid forcing outcomes that require more time."
+},
+"Uthiram": {
+"forecast": "Partnerships and cooperative efforts bring encouraging developments. Mutual support strengthens results.",
+"attention": "Avoid making promises you cannot comfortably keep."
+},
+"Uthirattadhi": {
+"forecast": "Reflection and careful observation reveal valuable insights. Quiet progress is still meaningful progress.",
+"attention": "Avoid withdrawing completely from useful discussions."
+},
+"Visakam": {
+"forecast": "Determination and focus help you overcome obstacles. Productive effort brings measurable gains.",
+"attention": "Avoid becoming distracted by short-term concerns."
+}
 }

@@ -1,75 +1,40 @@
-const nakshatras = [
-"Anusham",
-"Ashwini",
-"Avittam",
-"Ayilyam",
-"Bharani",
-"Chithirai",
-"Hastham",
-"Karthigai",
-"Kettai",
-"Magham",
-"Mirugasirisham",
-"Moolam",
-"Poosam",
-"Pooradam",
-"Pooram",
-"Poorattadhi",
-"Punarpoosam",
-"Revathi",
-"Rohini",
-"Sadayam",
-"Swathi",
-"Thiruvathirai",
-"Thiruvonam",
-"Uthiradam",
-"Uthiram",
-"Uthirattadhi",
-"Visakam"
-];
-
 const grid = document.getElementById("grid");
 
-nakshatras.forEach(n => {
+fetch("forecasts.json")
+  .then(response => response.json())
+  .then(forecasts => {
 
-    const d = document.createElement("div");
+    const nakshatras = Object.keys(forecasts);
 
-    d.className = "card";
+    nakshatras.forEach(n => {
 
-    d.innerText = n;
+      const card = document.createElement("div");
+      card.className = "card";
+      card.innerText = n;
 
-    d.onclick = () => loadForecast(n);
-
-    grid.appendChild(d);
-
-});
-
-function loadForecast(n){
-
-    fetch('forecasts.json')
-
-    .then(response => response.json())
-
-    .then(data => {
+      card.onclick = () => {
 
         document.getElementById("forecast").innerHTML =
-            "<h3>" + n + "</h3><p>" + data[n].forecast + "</p>";
+          "<h3>" + n + "</h3><p>" +
+          forecasts[n].forecast +
+          "</p>";
 
         document.getElementById("attention").innerHTML =
-            "<h3>" + n + "</h3><p>" + data[n].attention + "</p>";
+          "<h3>" + n + "</h3><p>" +
+          forecasts[n].attention +
+          "</p>";
+      };
 
-    })
-
-    .catch(error => {
-
-        console.error(error);
-
-        document.getElementById("forecast").innerHTML =
-            "<p>Unable to load forecast.</p>";
-
-        document.getElementById("attention").innerHTML =
-            "<p>Please try again later.</p>";
+      grid.appendChild(card);
 
     });
 
-}
+  })
+  .catch(error => {
+
+    console.error(error);
+
+    document.getElementById("forecast").innerHTML =
+      "<p>Unable to load forecasts.</p>";
+
+  });
